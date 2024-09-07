@@ -1,10 +1,25 @@
 {
+  "JSON stringify": {
+    "prefix": "jstr",
+    "body": [
+      "JSON.stringify($1)"
+    ],
+    "description": "Stringify a JSON object"
+  },
+  "JSON parse": {
+    "prefix": "jpar",
+    "body": [
+      "JSON.parse($1)"
+    ],
+    "description": "Parse a JSON string"
+  },
 	"Print to console": {
 		"scope": "javascript,typescript",
 		"prefix": "clg",
 		"body": [
-			"console.log($1)"
+			"console.log($1)",
 		],
 		"description": "Log output to console"
-	}
+	},
+
 }
