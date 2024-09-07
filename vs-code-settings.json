@@ -11,5 +11,8 @@
     "files.trimTrailingWhitespace": true,
     "update.showReleaseNotes": false,
     "emmet.triggerExpansionOnTab": true,
-    "explorer.confirmPasteNative": false
+    "explorer.confirmPasteNative": false,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    }
 }
